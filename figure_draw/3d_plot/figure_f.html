@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-gl.min.js"></script>
+
+</head>
+<body>
+    <div id="4c0b9ae1920a42e5a391466b08fcd03f" class="chart-container" style="width:1800px; height:800px;"></div>
+    <script>
+        var chart_4c0b9ae1920a42e5a391466b08fcd03f = echarts.init(
+            document.getElementById('4c0b9ae1920a42e5a391466b08fcd03f'), 'white', {renderer: 'canvas'});
+        var option_4c0b9ae1920a42e5a391466b08fcd03f = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar3D",
+            "data": [
+                [
+                    0,
+                    0,
+                    0.66
+                ],
+                [
+                    1,
+                    0,
+                    0.66
+                ],
+                [
+                    2,
+                    0,
+                    0.53
+                ],
+                [
+                    3,
+                    0,
+                    0.68
+                ],
+                [
+                    0,
+                    1,
+                    0.62
+                ],
+                [
+                    1,
+                    1,
+                    0.76
+                ],
+                [
+                    2,
+                    1,
+                    0.63
+                ],
+                [
+                    3,
+                    1,
+                    0.67
+                ],
+                [
+                    0,
+                    2,
+                    0.81
+                ],
+                [
+                    1,
+                    2,
+                    0.82
+                ],
+                [
+                    2,
+                    2,
+                    0.86
+                ],
+                [
+                    3,
+                    2,
+                    0.96
+                ],
+                [
+                    0,
+                    3,
+                    0.87
+                ],
+                [
+                    1,
+                    3,
+                    1.07
+                ],
+                [
+                    2,
+                    3,
+                    1.1
+                ],
+                [
+                    3,
+                    3,
+                    1.17
+                ],
+                [
+                    0,
+                    4,
+                    1.52
+                ],
+                [
+                    1,
+                    4,
+                    1.53
+                ],
+                [
+                    2,
+                    4,
+                    1.55
+                ],
+                [
+                    3,
+                    4,
+                    1.76
+                ]
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "color": "#9AFF9A",
+                "margin": 8
+            },
+            "shading": "realistic",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                ""
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 20,
+        "inRange": {
+            "color": [
+                "#FFEFD5",
+                "#9AFF9A",
+                "#DDA0DD",
+                "#76EEC6",
+                "#1E90FF"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "dimension": 3,
+        "orient": "vertical",
+        "bottom": true,
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    },
+    "xAxis3D": {
+        "data": [
+            "MS-BU",
+            "OPLR-TP",
+            "SFSW",
+            "FSW"
+        ],
+        "name": " ",
+        "nameGap": 20,
+        "type": "category",
+        "axisLabel": {
+            "margin": 8
+        }
+    },
+    "yAxis3D": {
+        "data": [
+            "50%",
+            "40%",
+            "30%",
+            "20%",
+            "10%"
+        ],
+        "name": " ",
+        "nameGap": 20,
+        "type": "category",
+        "axisLabel": {
+            "margin": 8
+        }
+    },
+    "zAxis3D": {
+        "name": "NRE",
+        "nameGap": 20,
+        "type": "value",
+        "axisLabel": {
+            "margin": 8
+        }
+    },
+    "grid3D": {
+        "boxWidth": 100,
+        "boxHeight": 120,
+        "boxDepth": 100,
+        "viewControl": {
+            "autoRotate": false,
+            "autoRotateSpeed": 10,
+            "rotateSensitivity": 1
+        }
+    },
+    "title": [
+        {
+            "text": "\u7efc\u5408\u6027\u80fd\u5bf9\u6bd4",
+            "right": true,
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_4c0b9ae1920a42e5a391466b08fcd03f.setOption(option_4c0b9ae1920a42e5a391466b08fcd03f);
+    </script>
+</body>
+</html>
